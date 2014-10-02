@@ -3,13 +3,7 @@
 class Resize {  
 
 	private $image;  
-    private $width;  
-    private $height;
-	private $imageresized;
-  
-    public function Resize($filename) {   
-        $this->image = $this->openImage($filename);   
-        $this->width  = imagesx($this->image);  
+->image);  
         $this->height = imagesy($this->image);
     }
 	
