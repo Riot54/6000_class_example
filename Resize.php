@@ -1,7 +1,7 @@
 <?php
 
 class Resize {  
-
+sploo
 	private $image;  
 ->image);  
         $this->height = imagesy($this->image);
